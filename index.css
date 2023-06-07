@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.header{
+    width: 100%;
+    background-color: #1f1f1f;
+    height: 13%;
+    position: fixed;
+}
+
+.items{
+    display: flex;
+}
+
+.items img{
+    position: relative;
+    top: 18px;
+    left: 100px;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.items p{
+    position: relative;
+    top: 20px;
+    left: 120px;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+
+.items button{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    right: 120px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.items button:hover{
+    background-color: lightblue;
+}
+
+.flash{
+    display: none;
+    position: absolute;
+    top: 14%;
+    width: 96%;
+    left: 2%;
+    height: 10%;
+    border: solid 2px gray;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.flash p{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.flash button{
+    position: relative;
+    left: 90%;
+    bottom: 40%;
+    border-radius: 5px;
+    padding: 4px;
+    width: 80px;
+    cursor: pointer;
+    
+}
+
+.flash button:hover{
+    background-color: white;
+}
+
+.search{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+
+.search input{
+    width: 70vw;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.img img{
+    width: 99.8%;
+    height: max-content;
+}
+
+.info{
+    width: 40vw;
+    height: 23vw;
+    border-radius: 10px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 45%;
+    left: 6%;
+}
+
+.cur{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.city , .country{
+    display: inline;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    bottom: 45%;
+}
+
+.icon{
+    height: 150px;
+    width: auto;
+    position: relative;
+    right: 30%;
+    top: 12%;
+    margin-left: 20px;
+}
+
+.feels{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px;
+    position: relative;
+    bottom: 30%;
+    left: 32%;
+}
+
+.temp{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    left: 30%;
+    bottom: 30%;
+
+}
+
+.desc{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    left: 5%;
+    bottom: 30%;
+}
+
+.info1{
+    padding: 20px;
+    width: 40vw;
+    height: 23vw;
+    border-radius: 10px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 45%;
+    left: 53%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hum{
+    font-size: 20px;
+    font-weight: 600;
+    flex-basis: 50%;
+}
+
+.hum1{
+    font-size: 20px;
+    font-weight: 600;
+    flex-basis: 100%;
+}
